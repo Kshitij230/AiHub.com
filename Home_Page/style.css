@@ -192,6 +192,11 @@ li{
     #content a{
         font-size: 2px;
     }
+
+    .sec p{
+        font-size: 1em;
+    }
+
 }
 
 
@@ -373,15 +378,20 @@ section img#fire{
 .sec h2{
 
     font-size: 3.5em;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     color: #fff;
 }
 
 .sec p{
-    font-size: 1em;
+    font-size: 1.5em;
     color: #fff;
 }
 
+@media (max-width:55em) {
+    .sec p{
+        font-size: 1em;
+    }
+}
 
 /* Glowing Gradient */
 
